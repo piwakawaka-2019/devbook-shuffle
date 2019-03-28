@@ -1,0 +1,25 @@
+{
+  "name": "devbook-shuffle",
+  "version": "1.0.0",
+  "description": "Creates random group project teams",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piwakawaka-2019/devbook-shuffle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piwakawaka-2019/devbook-shuffle/issues"
+  },
+  "homepage": "https://github.com/piwakawaka-2019/devbook-shuffle#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0"
+  }
+}
