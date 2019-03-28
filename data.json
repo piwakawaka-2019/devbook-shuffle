@@ -1,8 +1,10 @@
 {
-  "People": [{
+  "people": [
+    {
+
       "id": 1,
       "name": "Nathan",
-      "strengthes": "",
+      "strengths": "JavaScript, PHP, Python",
       "image": "/images/1.jpg",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna ut est iaculis interdum. Cras viverra est nec ex scelerisque, in egestas nisi aliquam. Aliquam eu faucibus ligula. Nulla imperdiet convallis scelerisque. Sed vel eleifend ante. Suspendisse a orci odio. Morbi in magna mattis, eleifend purus id, consectetur lorem. Mauris nec dolor magna. In id augue ultricies, sollicitudin diam vel, consequat ex. Curabitur lobortis vestibulum lectus.",
       "likes": "",
@@ -12,7 +14,7 @@
     {
       "id": 2,
       "name": "Blaine",
-      "strengthes": "",
+      "strengths": "JavaScript, PHP, Ruby",
       "image": "/images/2.jpg",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna ut est iaculis interdum. Cras viverra est nec ex scelerisque, in egestas nisi aliquam. Aliquam eu faucibus ligula. Nulla imperdiet convallis scelerisque. Sed vel eleifend ante. Suspendisse a orci odio. Morbi in magna mattis, eleifend purus id, consectetur lorem. Mauris nec dolor magna. In id augue ultricies, sollicitudin diam vel, consequat ex. Curabitur lobortis vestibulum lectus.",
       "likes": "",
@@ -22,7 +24,7 @@
     {
       "id": 3,
       "name": "Cliff",
-      "strengthes": "",
+      "strengths": "JavaScript, CSS, Python",
       "image": "/images/3.jpg",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna ut est iaculis interdum. Cras viverra est nec ex scelerisque, in egestas nisi aliquam. Aliquam eu faucibus ligula. Nulla imperdiet convallis scelerisque. Sed vel eleifend ante. Suspendisse a orci odio. Morbi in magna mattis, eleifend purus id, consectetur lorem. Mauris nec dolor magna. In id augue ultricies, sollicitudin diam vel, consequat ex. Curabitur lobortis vestibulum lectus.",
       "likes": "",
@@ -32,7 +34,7 @@
     {
       "id": 4,
       "name": "Des",
-      "strengthes": "",
+      "strengths": "JavaScript, PHP, Python",
       "image": "/images/4.jpg",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna ut est iaculis interdum. Cras viverra est nec ex scelerisque, in egestas nisi aliquam. Aliquam eu faucibus ligula. Nulla imperdiet convallis scelerisque. Sed vel eleifend ante. Suspendisse a orci odio. Morbi in magna mattis, eleifend purus id, consectetur lorem. Mauris nec dolor magna. In id augue ultricies, sollicitudin diam vel, consequat ex. Curabitur lobortis vestibulum lectus.",
       "likes": "",
@@ -42,7 +44,7 @@
     {
       "id": 5,
       "name": "Ashleigh",
-      "strengthes": "",
+      "strengths": "JavaScript, PHP, React",
       "image": "/images/5.jpg",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna ut est iaculis interdum. Cras viverra est nec ex scelerisque, in egestas nisi aliquam. Aliquam eu faucibus ligula. Nulla imperdiet convallis scelerisque. Sed vel eleifend ante. Suspendisse a orci odio. Morbi in magna mattis, eleifend purus id, consectetur lorem. Mauris nec dolor magna. In id augue ultricies, sollicitudin diam vel, consequat ex. Curabitur lobortis vestibulum lectus.",
       "likes": "",
@@ -52,7 +54,7 @@
     {
       "id": 6,
       "name": "Adam",
-      "strengthes": "",
+      "strengths": "JavaScript, PHP, Python",
       "image": "/images/6.jpg",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna ut est iaculis interdum. Cras viverra est nec ex scelerisque, in egestas nisi aliquam. Aliquam eu faucibus ligula. Nulla imperdiet convallis scelerisque. Sed vel eleifend ante. Suspendisse a orci odio. Morbi in magna mattis, eleifend purus id, consectetur lorem. Mauris nec dolor magna. In id augue ultricies, sollicitudin diam vel, consequat ex. Curabitur lobortis vestibulum lectus.",
       "likes": "",
@@ -62,7 +64,7 @@
     {
       "id": 7,
       "name": "Cerys",
-      "strengthes": "",
+      "strengths": "JavaScript, PHP, Python",
       "image": "/images/7.jpg",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna ut est iaculis interdum. Cras viverra est nec ex scelerisque, in egestas nisi aliquam. Aliquam eu faucibus ligula. Nulla imperdiet convallis scelerisque. Sed vel eleifend ante. Suspendisse a orci odio. Morbi in magna mattis, eleifend purus id, consectetur lorem. Mauris nec dolor magna. In id augue ultricies, sollicitudin diam vel, consequat ex. Curabitur lobortis vestibulum lectus.",
       "likes": "",
@@ -72,7 +74,7 @@
     {
       "id": 8,
       "name": "Devon",
-      "strengthes": "",
+      "strengths": "JavaScript, React, Python",
       "image": "/images/8.jpg",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna ut est iaculis interdum. Cras viverra est nec ex scelerisque, in egestas nisi aliquam. Aliquam eu faucibus ligula. Nulla imperdiet convallis scelerisque. Sed vel eleifend ante. Suspendisse a orci odio. Morbi in magna mattis, eleifend purus id, consectetur lorem. Mauris nec dolor magna. In id augue ultricies, sollicitudin diam vel, consequat ex. Curabitur lobortis vestibulum lectus.",
       "likes": "",
@@ -82,7 +84,7 @@
     {
       "id": 9,
       "name": "Jennifer",
-      "strengthes": "",
+      "strengths": "JavaScript, PHP, CSS",
       "image": "/images/9.jpg",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna ut est iaculis interdum. Cras viverra est nec ex scelerisque, in egestas nisi aliquam. Aliquam eu faucibus ligula. Nulla imperdiet convallis scelerisque. Sed vel eleifend ante. Suspendisse a orci odio. Morbi in magna mattis, eleifend purus id, consectetur lorem. Mauris nec dolor magna. In id augue ultricies, sollicitudin diam vel, consequat ex. Curabitur lobortis vestibulum lectus.",
       "likes": "",
@@ -92,7 +94,7 @@
     {
       "id": 10,
       "name": "Jesse",
-      "strengthes": "",
+      "strengths": "JavaScript, NodeJS, Python",
       "image": "/images/10.jpg",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna ut est iaculis interdum. Cras viverra est nec ex scelerisque, in egestas nisi aliquam. Aliquam eu faucibus ligula. Nulla imperdiet convallis scelerisque. Sed vel eleifend ante. Suspendisse a orci odio. Morbi in magna mattis, eleifend purus id, consectetur lorem. Mauris nec dolor magna. In id augue ultricies, sollicitudin diam vel, consequat ex. Curabitur lobortis vestibulum lectus.",
       "likes": "",
@@ -102,7 +104,7 @@
     {
       "id": 11,
       "name": "Jorge",
-      "strengthes": "",
+      "strengths": "JavaScript, PHP, ",
       "image": "/images/11.jpg",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna ut est iaculis interdum. Cras viverra est nec ex scelerisque, in egestas nisi aliquam. Aliquam eu faucibus ligula. Nulla imperdiet convallis scelerisque. Sed vel eleifend ante. Suspendisse a orci odio. Morbi in magna mattis, eleifend purus id, consectetur lorem. Mauris nec dolor magna. In id augue ultricies, sollicitudin diam vel, consequat ex. Curabitur lobortis vestibulum lectus.",
       "likes": "",
@@ -112,7 +114,7 @@
     {
       "id": 12,
       "name": "Josh",
-      "strengthes": "",
+      "strengths": "JavaScript, PHP, Python",
       "image": "/images/12.jpg",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna ut est iaculis interdum. Cras viverra est nec ex scelerisque, in egestas nisi aliquam. Aliquam eu faucibus ligula. Nulla imperdiet convallis scelerisque. Sed vel eleifend ante. Suspendisse a orci odio. Morbi in magna mattis, eleifend purus id, consectetur lorem. Mauris nec dolor magna. In id augue ultricies, sollicitudin diam vel, consequat ex. Curabitur lobortis vestibulum lectus.",
       "likes": "",
@@ -122,7 +124,7 @@
     {
       "id": 13,
       "name": "Luke",
-      "strengthes": "",
+      "strengths": "JavaScript, PHP, Python",
       "image": "/images/13.jpg",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna ut est iaculis interdum. Cras viverra est nec ex scelerisque, in egestas nisi aliquam. Aliquam eu faucibus ligula. Nulla imperdiet convallis scelerisque. Sed vel eleifend ante. Suspendisse a orci odio. Morbi in magna mattis, eleifend purus id, consectetur lorem. Mauris nec dolor magna. In id augue ultricies, sollicitudin diam vel, consequat ex. Curabitur lobortis vestibulum lectus.",
       "likes": "",
@@ -132,7 +134,7 @@
     {
       "id": 14,
       "name": "Matt",
-      "strengthes": "",
+      "strengths": "JavaScript, PHP, Python",
       "image": "/images/14.jpg",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna ut est iaculis interdum. Cras viverra est nec ex scelerisque, in egestas nisi aliquam. Aliquam eu faucibus ligula. Nulla imperdiet convallis scelerisque. Sed vel eleifend ante. Suspendisse a orci odio. Morbi in magna mattis, eleifend purus id, consectetur lorem. Mauris nec dolor magna. In id augue ultricies, sollicitudin diam vel, consequat ex. Curabitur lobortis vestibulum lectus.",
       "likes": "",
@@ -142,7 +144,7 @@
     {
       "id": 15,
       "name": "Meg",
-      "strengthes": "",
+      "strengths": "JavaScript, PHP, Python",
       "image": "/images/15.jpg",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna ut est iaculis interdum. Cras viverra est nec ex scelerisque, in egestas nisi aliquam. Aliquam eu faucibus ligula. Nulla imperdiet convallis scelerisque. Sed vel eleifend ante. Suspendisse a orci odio. Morbi in magna mattis, eleifend purus id, consectetur lorem. Mauris nec dolor magna. In id augue ultricies, sollicitudin diam vel, consequat ex. Curabitur lobortis vestibulum lectus.",
       "likes": "",
@@ -152,16 +154,17 @@
     {
       "id": 16,
       "name": "Nanz",
-      "strengthes": "",
+      "strengths": "JavaScript, PHP, Python",
       "image": "/images/16.jpg",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna ut est iaculis interdum. Cras viverra est nec ex scelerisque, in egestas nisi aliquam. Aliquam eu faucibus ligula. Nulla imperdiet convallis scelerisque. Sed vel eleifend ante. Suspendisse a orci odio. Morbi in magna mattis, eleifend purus id, consectetur lorem. Mauris nec dolor magna. In id augue ultricies, sollicitudin diam vel, consequat ex. Curabitur lobortis vestibulum lectus.",
       "likes": "",
       "dislikes": "",
       "weaknesses": ""
-    }, {
+    },
+    {
       "id": 17,
       "name": "Vinnie",
-      "strengthes": "",
+      "strengths": "JavaScript, PHP, Python",
       "image": "/images/17.jpg",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna ut est iaculis interdum. Cras viverra est nec ex scelerisque, in egestas nisi aliquam. Aliquam eu faucibus ligula. Nulla imperdiet convallis scelerisque. Sed vel eleifend ante. Suspendisse a orci odio. Morbi in magna mattis, eleifend purus id, consectetur lorem. Mauris nec dolor magna. In id augue ultricies, sollicitudin diam vel, consequat ex. Curabitur lobortis vestibulum lectus.",
       "likes": "",
@@ -171,7 +174,7 @@
     {
       "id": 18,
       "name": "Fudz",
-      "strengthes": "",
+      "strengths": "JavaScript, PHP, Python",
       "image": "/images/18.jpg",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna ut est iaculis interdum. Cras viverra est nec ex scelerisque, in egestas nisi aliquam. Aliquam eu faucibus ligula. Nulla imperdiet convallis scelerisque. Sed vel eleifend ante. Suspendisse a orci odio. Morbi in magna mattis, eleifend purus id, consectetur lorem. Mauris nec dolor magna. In id augue ultricies, sollicitudin diam vel, consequat ex. Curabitur lobortis vestibulum lectus.",
       "likes": "",
@@ -181,16 +184,17 @@
     {
       "id": 19,
       "name": "Zoe",
-      "strengthes": "",
+      "strengths": "JavaScript, PHP, Python",
       "image": "/images/19.jpg",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna ut est iaculis interdum. Cras viverra est nec ex scelerisque, in egestas nisi aliquam. Aliquam eu faucibus ligula. Nulla imperdiet convallis scelerisque. Sed vel eleifend ante. Suspendisse a orci odio. Morbi in magna mattis, eleifend purus id, consectetur lorem. Mauris nec dolor magna. In id augue ultricies, sollicitudin diam vel, consequat ex. Curabitur lobortis vestibulum lectus.",
       "likes": "",
       "dislikes": "",
       "weaknesses": ""
-    }, {
+    },
+    {
       "id": 20,
       "name": "Sharlenex`",
-      "strengthes": "",
+      "strengths": "JavaScript, PHP, Python",
       "image": "/images/20.jpg",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna ut est iaculis interdum. Cras viverra est nec ex scelerisque, in egestas nisi aliquam. Aliquam eu faucibus ligula. Nulla imperdiet convallis scelerisque. Sed vel eleifend ante. Suspendisse a orci odio. Morbi in magna mattis, eleifend purus id, consectetur lorem. Mauris nec dolor magna. In id augue ultricies, sollicitudin diam vel, consequat ex. Curabitur lobortis vestibulum lectus.",
       "likes": "",
