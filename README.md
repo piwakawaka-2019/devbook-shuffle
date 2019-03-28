@@ -1,2 +1,2 @@
-# devook-shuffle
+# devbook-shuffle
 Creates random group project teams
