@@ -1,5 +1,10 @@
 const shuffle = require('fisher-yates-shuffle');
 
+
+
+
+//function to shuffle array
+
 function randomList(arr){
 const randomizer = function() {
     return Math.random()
@@ -10,6 +15,8 @@ const shuffledDeck = shuffle(arr, randomizer);
 return shuffledDeck;
 }
 
+
+//function to split array
 
 function groups(teamArr, groupSize){
     var index = 0;
