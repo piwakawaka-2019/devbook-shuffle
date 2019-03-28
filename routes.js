@@ -26,7 +26,9 @@ router.get('/teams', (req, res) => {
 })
 
 router.use('/', (req, res) => {
-  res.send("hi there")
+
+
+  res.render("layouts/home")
 })
 
 module.exports = router;
