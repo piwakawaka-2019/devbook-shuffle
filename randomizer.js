@@ -1,30 +1,27 @@
-const shuffle = require('fisher-yates-shuffle');
-
+const shuffle = require('fisher-yates-shuffle')
 
 
 
 //function to shuffle array
 
-function randomList(arr){
-const randomizer = function() {
-    return Math.random()
-};
-
-const shuffle = require('fisher-yates-shuffe');
-const shuffledDeck = shuffle(arr, randomizer);
-return shuffledDeck;
+function randomList(arr) {
+    const randomizer = function () {
+        return Math.random()
+    };
+    const shuffledDeck = shuffle(arr, randomizer);
+    return shuffledDeck;
 }
 
 
 //function to split array
 
-function groups(teamArr, groupSize){
+function groups(teamArr, groupSize) {
     var index = 0;
     var arrayLength = teamArr.length;
     var tempArray = [];
-    
+
     for (index = 0; index < arrayLength; index += groupSize) {
-        myChunk = teamArr.slice(index, index+groupSize);
+        myChunk = teamArr.slice(index, index + groupSize);
         // Do something if you want with the group
         tempArray.push(myChunk);
     }
@@ -34,7 +31,7 @@ function groups(teamArr, groupSize){
 
 
 module.exports = randomList;
-module.exports =  groups;
+module.exports = groups;
 
 
 
