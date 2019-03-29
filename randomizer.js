@@ -25,13 +25,17 @@ function groups(teamArr, groupSize) {
         // Do something if you want with the group
         tempArray.push(myChunk);
     }
+    // console.log(tempArray)
     return tempArray;
 }
 
 
 
-module.exports = randomList;
-module.exports = groups;
+module.exports = {
+    randomList: randomList,
+    groups: groups,
+}
+
 
 
 
