@@ -2,6 +2,18 @@
   "people": [
     {
 
+      "id": 0,
+      "name": "Nathan",
+      "strengths": "JavaScript, PHP, Python",
+      "image": "/images/1.jpg",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non magna ut est iaculis interdum. Cras viverra est nec ex scelerisque, in egestas nisi aliquam. Aliquam eu faucibus ligula. Nulla imperdiet convallis scelerisque. Sed vel eleifend ante. Suspendisse a orci odio. Morbi in magna mattis, eleifend purus id, consectetur lorem. Mauris nec dolor magna. In id augue ultricies, sollicitudin diam vel, consequat ex. Curabitur lobortis vestibulum lectus.",
+      "likes": "",
+      "dislikes": "",
+      "weaknesses": ""
+    },
+
+    {
+
       "id": 1,
       "name": "Nathan",
       "strengths": "JavaScript, PHP, Python",

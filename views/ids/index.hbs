@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
     <meta charset="utf-8">
     <title>Dev Book</title>
 
@@ -9,75 +10,6 @@
   </head>
   <style>
     @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
-
-
-/* ========================================================== */
-                            /* NAV BAR */
-/* ========================================================== */
-section{
-    width: 100%;
-    height: 100vh;
-    background-size: cover; 
-}
-.menu{
-    position: absolute;
-    width: 100%;
-    background: rgba(255,255,255,.5);
-    padding: 0 100px;
-    box-sizing: border-box;
-    
-}
-.menu img{
-    float: left;
-    width: 84px;
-  border-radius:30px
-}
-nav{
-    position: relative;
-    float: right;
-}
-nav ul{
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-nav ul li{
-    list-style: none;
-}
-nav ul li a{
-    display: block;
-    color:#000;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 33px 20px;
-}
-nav ul li a:hover{
-    background: #184771;
-    color: #fff;
-}
-nav ul li ul{
-    display: block;
-    background: rgba(255,255,255,.5);
-    min-width:250px;
-    position: absolute;
-    margin-top: 1px;
-    box-shadow: 0 2px 5px rgba(0,0,0,.5);
-    opacity: 0;
-    visibility: hidden;
-    transition: .5s;
-    transform: translateY(40px);
-}
-nav ul li:hover ul{
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0px);
-}
-nav ul li ul a{
-    padding: 10px;
-}
-
-
 
 /* ========================================================== */
                             /* CARDS */
@@ -201,25 +133,18 @@ body{
 }
   </style>
   <body>
-  <div class="container">
-  {{#each people}} 
-  <div class="cohort-list">
-    <p>{{name}}{{id}}</p>
-    <a href="/profiles/{{id}}"><img class="img-circle" src="{{image}}" alt="{{name}}"></a>
-  </div>
-  {{/each}}
-</div>
-{{!-- 
+
 <div class="wrapper">
    {{#each people}} 
         <div class="column">
             <div class="imgBox">
-                <img src="https://images.unsplash.com/photo-1549738712-da3cb334e1d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=677&q=80">
+                <a href="/profiles/{{id}}"><img src="{{image}}" alt="{{name}}"></a>
             </div>
             <div class="details">
                 <div class="content" >
-                    <h1>{{NAME}}<br><span></span></h1>
-                    <p>I am student #{{id}</p>
+                    <h1>{{name}}<br><span></span></h1>
+                    
+                   <br> <p>My Strenghts are :</p><p>{{strengths}}</p>
 
                     <ul>
                         <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
@@ -229,9 +154,9 @@ body{
                 </div>
             </div>
         </div>
-        </div> --}}
+        </div>
 
-
+ {{/each}}
   </body>
 </html>
 
