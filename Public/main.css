@@ -26,7 +26,7 @@ body{
 .container .column .content h1{
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-10%);
     width: 100%;
     background:transparent;
     text-align: center;
