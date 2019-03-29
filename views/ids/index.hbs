@@ -133,7 +133,20 @@ body{
 }
   </style>
   <body>
+<<<<<<< HEAD
 
+=======
+  <div class="container">
+  {{#each people}} 
+  <div class="cohort-list">
+    <p>{{name}}{{id}}</p>
+    <a href="/profiles/{{id}}"><img class="img-circle" src="{{image}}" alt="{{name}}"></a>
+
+  </div>
+  {{/each}}
+</div>
+{{!-- 
+>>>>>>> e7754adb81e08cf4a9a9a3f96e4c0f95eb32fa59
 <div class="wrapper">
    {{#each people}} 
         <div class="column">
