@@ -1,8 +1,247 @@
-<div class="container">
-  {{#each people}} {{!-- reference cohort array --}}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dev Book</title>
+
+    <link rel="stylesheet" type = "text/css" href="/main.css">
+
+  </head>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+
+/* ========================================================== */
+                            /* NAV BAR */
+/* ========================================================== */
+section{
+    width: 100%;
+    height: 100vh;
+    background-size: cover; 
+}
+.menu{
+    position: absolute;
+    width: 100%;
+    background: rgba(255,255,255,.5);
+    padding: 0 100px;
+    box-sizing: border-box;
+    
+}
+.menu img{
+    float: left;
+    width: 84px;
+  border-radius:30px
+}
+nav{
+    position: relative;
+    float: right;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    display: block;
+    color:#000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 33px 20px;
+}
+nav ul li a:hover{
+    background: #184771;
+    color: #fff;
+}
+nav ul li ul{
+    display: block;
+    background: rgba(255,255,255,.5);
+    min-width:250px;
+    position: absolute;
+    margin-top: 1px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    transform: translateY(40px);
+}
+nav ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+nav ul li ul a{
+    padding: 10px;
+}
+
+
+
+/* ========================================================== */
+                            /* CARDS */
+/* ========================================================== */
+
+
+
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background : url( "https://images.unsplash.com/photo-1550338861-b7cfeaf8ffd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1157&q=80");
+    background-size: cover;
+     background-position: center;
+}
+
+.wrapper{
+    width: 100%;
+    min-height: 100px;
+    background: #262626;
+    position: absolute;
+    top: 50%;
+    transform:  translateY(-50%); 
+}
+
+.column{
+    position: relative;
+    width: 20%;
+    height: 400px;
+    float: left;
+    overflow: hidden;
+}
+
+.column .imgBox img{
+    max-width: 100%;
+    transition: 1s;
+}
+.column:hover .imgBox img{
+    transform: scale(1.5);
+}
+.column .details {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background:#F1ECE8;
+    text-align: center;
+    transform: scale(.5);
+    visibility: hidden;
+    transition: .5s;
+}
+.column:hover .details{
+    transform: scale(1);
+    visibility: visible;
+}
+.column .details .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    box-sizing: border-box;
+}
+.column .details .content h1{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #262626;
+    text-transform: uppercase;
+}
+.column .details .content h1 span{
+    font-size: 16px;
+    color: #999;
+}
+.column .details .content h1:before{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    width: 50px;
+    height: 2px;
+    background: #4E1861;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.column .details .content ul{
+    position: relative;
+    display: flex;
+    padding: 0;
+    width: 70%;
+    margin: 30px auto 0;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: .5s;
+}
+.column:hover .details .content ul{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.column .details .content ul li{
+    list-style: none;
+    width: 25%;
+    text-align: center;
+}
+.column .details .content ul li a{
+    display: block;
+    color: #262626;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 1px solid #262626;
+    transition: .5s;
+}
+.column .details .content ul li a:hover{
+    background: #4E1861;
+    color: #fff;
+    border: 1px solid #262626;
+}
+  </style>
+  <body>
+  <div class="container">
+  {{#each people}} 
   <div class="cohort-list">
-    <a href="/details/{{id}}"><img class="img-circle" src="{{image}}" alt="{{name}}"></a>
-    <p>{{name}}</p>
+    <p>{{name}}{{id}}</p>
+    <a href="/profiles/{{id}}"><img class="img-circle" src="{{image}}" alt="{{name}}"></a>
+
   </div>
   {{/each}}
 </div>
+{{!-- 
+<div class="wrapper">
+   {{#each people}} 
+        <div class="column">
+            <div class="imgBox">
+                <img src="https://images.unsplash.com/photo-1549738712-da3cb334e1d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=677&q=80">
+            </div>
+            <div class="details">
+                <div class="content" >
+                    <h1>{{NAME}}<br><span></span></h1>
+                    <p>I am student #{{id}</p>
+
+                    <ul>
+                        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div> --}}
+
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
