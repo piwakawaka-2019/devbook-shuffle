@@ -4,7 +4,6 @@ const people = require('./data').people
 const randomizer = require('./randomizer')
 const fs = require('fs')
 
-const teams = randomizer.groups(randomizer.randomList(people), 4)
 
 router.get('/profiles', (req, res) => {
   const viewData = {
@@ -20,15 +19,16 @@ router.get('/profiles/:id', (req, res) => {
 })
 
 router.get('/teams', (req, res) => {
+  const teams = randomizer.groups(randomizer.randomList(people), 4)
   const viewData = { teams }
 
   res.render('ids/teams', viewData)
-  console.log(viewData)
+  // console.log(viewData)
 })
 
-router.use('/', (req, res) => {
-  res.render('ids/home')
-})
+// router.use('/', (req, res) => {
+//   res.render('ids/home', {layout:""})
+// })
 
 module.exports = router;
 
