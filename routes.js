@@ -23,12 +23,14 @@ router.get('/teams', (req, res) => {
   const viewData = { teams }
 
   res.render('ids/teams', viewData)
-  // console.log(viewData)
+
 })
 
-// router.use('/', (req, res) => {
-//   res.render('ids/home', {layout:""})
-// })
+router.use('/', (req, res) => {
+
+  res.render("layouts/home")
+
+})
 
 module.exports = router;
 
