@@ -26,11 +26,9 @@ router.get('/teams', (req, res) => {
 
 })
 
-router.use('/', (req, res) => {
-
-  res.render("layouts/home")
-
-})
+// router.use('/', (req, res) => {
+//   res.render('ids/home')
+// })
 
 module.exports = router;
 
